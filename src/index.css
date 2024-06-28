@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=General+Sans:wght@400;500;600&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.heading-1 {
+    @apply text-[14px] font-medium font-general-sans  text-slate-500;
+  }
+
+  .heading-2 {
+    @apply text-[16px] font-medium font-general-sans ;
+  }
